@@ -364,6 +364,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     oneplus-fwk
 
+# OnePlus apps
+$(call inherit-product, vendor/oneplus/apps/guacamoleb/config.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
