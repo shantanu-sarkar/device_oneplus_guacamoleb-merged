@@ -71,6 +71,9 @@ TARGET_USES_ION := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Extra Google/Pixel features
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
