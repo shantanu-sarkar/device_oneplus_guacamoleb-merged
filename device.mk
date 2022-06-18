@@ -398,6 +398,10 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor
 
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
