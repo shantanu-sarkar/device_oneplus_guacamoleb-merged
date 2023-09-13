@@ -6,12 +6,6 @@
     "remote"      : "pixel-devices"
   },
   {
-    "repository"  : "hardware_oneplus",
-    "target_path" : "hardware/oneplus",
-    "branch"      : "fourteen-plus",
-    "remote"      : "pixel"
-  },
-  {
     "repository"  : "vendor_oneplus_guacamoleb",
     "target_path" : "vendor/oneplus/guacamoleb",
     "branch"      : "fourteen",
